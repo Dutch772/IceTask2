@@ -53,29 +53,29 @@ namespace IceTask2
         {
             get
             {
-                if (query == "name")
+                if (query == "ConsoleName")
                     return this.ConsoleName;
-                else if (query == "age")
+                else if (query == "ConsoleAge")
                     return this.ConsoleAge;
-                else if (query == "brand")
+                else if (query == "ConsoleBrand")
                     return this.ConsoleBrand;
-                else if (query == "price")
+                else if (query == "ConsolePrice")
                     return this.ConsolePrice;
-                else if (query == "performance")
+                else if (query == "ConsolePerformance")
                     return this.ConsolePerformance;
                 return null;
             }
             set
             {
-                if(query.ToLower().Equals("name"))
+                if(query.ToLower().Equals("ConsoleName"))
                     this.ConsoleName= (string)value;
-                else if(query.ToLower().Equals("age"))
+                else if(query.ToLower().Equals("ConsoleAge"))
                     this.ConsoleAge= (int)value;
-                else if(query.ToLower().Equals("brand"))
+                else if(query.ToLower().Equals("ConsoleBrand"))
                     this.ConsoleBrand= (string)value;
-                else if (query.ToLower().Equals("price"))
+                else if (query.ToLower().Equals("ConsolePrice"))
                     this.ConsolePrice = (int)value;
-                else if (query.ToLower().Equals("performance"))
+                else if (query.ToLower().Equals("ConsolePerformance"))
                     this.ConsolePerformance = (string)value;
             }
         }
